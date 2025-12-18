@@ -1,24 +1,29 @@
 .container-video {
-    border-radius: 50px;
     overflow: hidden;
     z-index: 1;
-    width: 500px;
-    height: 100px;
-    opacity: .2;
+    width: 400px;
+    height: 150px;
+    border-radius: 50px;
+    opacity: .4;
+    filter: drop-shadow(5px 5px 10px #000000);
+    border: 3px rgb(180, 176, 176) solid;
+    box-sizing: border-box;
 }
 
 #webcamVideo {
     -o-filter: blur(15px);
-    filter: blur(2px);
-    transform: scale(2);
+    filter: blur(4px);
+    scale: 1 4
 }
 
 .steel-button {
-    width: 500px;
-    height: 100px;
+    color: rgb(68, 67, 67) !important;
+    width: 400px;
+    height: 150px;
     border-radius: 50px;
     border: 0;
-    --convexity: 10;
+    --convexity: 0;
+    font-size: 50px;
 }
 
 .position {
